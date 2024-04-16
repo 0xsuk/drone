@@ -14,7 +14,7 @@ set(CMAKE_CXX_STANDARD 17)
 pico_sdk_init()
 
 add_executable(drone
-  ledblinkw.c
+  pwm.c
 )
 
 pico_enable_stdio_usb(drone 1)
